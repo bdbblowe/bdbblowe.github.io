@@ -45,7 +45,7 @@ h2 span {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
 }
 
-.overlay {
+.overlay. {
   background-color: rgba(0, 0, 0, 0.63);
   background-image: url(../img/header-image2.jpeg);
   background-position: center;
@@ -262,8 +262,10 @@ span.quot-name:before {
 .about-section {
   display: flex;
   text-align: center;
+  font-size: 1.25em;
   padding-top: 5em;
   padding-bottom: 5em;
+  padding-right: 3em;
 }
 
 .font-awesome1 {
@@ -274,6 +276,9 @@ span.quot-name:before {
 }
 
 .writing-images {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
   padding-top: 4.5em;
 }
 
@@ -285,9 +290,6 @@ span.quot-name:before {
   color: black;
 }
 
-.maskmag img {
-  height: 60%;
-}
 
 
 /*SERVICES STYLE*/
